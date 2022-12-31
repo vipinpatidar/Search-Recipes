@@ -1,0 +1,56 @@
+@media only screen and (max-width: $bp-smallest) {
+  .recipe__ingredient-list {
+    grid-template-columns: 1fr;
+  }
+  .recipe__details {
+    padding: 9rem 3rem 3.5rem;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .recipe__user-generated {
+    margin-left: 0;
+    margin-right: 0rem;
+  }
+  .header__logo {
+    height: 3.6rem;
+    margin-left: 1.6rem;
+    margin-right: 0rem;
+    display: block;
+  }
+  .search__field {
+    width: 14rem;
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+  }
+  .search__btn {
+    padding: 1rem;
+  }
+  .btn--small > :first-child,
+  .btn > :first-child {
+    margin-right: 0rem;
+  }
+  .hide-name {
+    display: none;
+  }
+  .nav {
+    align-self: stretch;
+    margin-right: 2.5rem;
+    //  display: none;
+  }
+  .nav__btn {
+    padding: 0 1rem;
+  }
+  .search {
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: 1.6rem;
+  }
+  .add-recipe-window {
+    width: 44rem;
+    padding: 2rem 3rem;
+  }
+  .upload {
+    grid-template-columns: 1fr;
+    gap: 2rem 6rem;
+  }
+}
