@@ -70,16 +70,16 @@ body {
   }
   @media only screen and (max-width: $bp-smallest) {
     grid-template-rows: 10rem minmax(10rem, auto) minmax(100rem, auto);
-    grid-template-columns: 52rem;
+    grid-template-columns: 1fr;
     grid-template-areas:
       'head'
       'list'
       'recipe';
   }
   @media only screen and (max-width: 25.5rem) {
-    grid-template-columns: 49.7rem;
+    // grid-template-columns: 49.7rem;
   }
   @media only screen and (max-width: 23.8rem) {
-    grid-template-columns: 48.7rem;
+    // grid-template-columns: 48.7rem;
   }
 }
