@@ -1,7 +1,4 @@
 @media only screen and (max-width: $bp-smallest) {
-  html {
-    // font-size: 62%;
-  }
   .recipe__ingredient-list {
     grid-template-columns: 1fr;
   }
